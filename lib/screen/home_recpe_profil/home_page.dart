@@ -22,7 +22,7 @@ class _HomeePageState extends State<HomeePage> {
       child: Scaffold(
         resizeToAvoidBottomInset: false,
         body: Container(
-          color: Color(0xFFE6F2FF),
+          color: isClick == false? Color(0xFFE6F2FF):Colors.black,
           padding: EdgeInsets.only(left:15,right:15,top:15,bottom: 5),
           child: Column(
             children: [
@@ -37,6 +37,7 @@ class _HomeePageState extends State<HomeePage> {
                       Text(
                         'Hand pick fresh \nitems nonly for you.',
                         style: TextStyle(
+                          color: isClick == false? Colors.black:Colors.white,
                           fontSize: 26,
                           fontWeight: FontWeight.w900,
                           fontFamily: 'JosefinSans',
@@ -134,7 +135,7 @@ class _HomeePageState extends State<HomeePage> {
                           child: Text(
                             'Categories',
                             style: TextStyle(
-                              color: Colors.black,
+                              color: isClick == false? Colors.black:Colors.white,
                               fontSize: 28,
                               fontWeight: FontWeight.w900,
                               fontFamily: 'DancingScript',
@@ -248,7 +249,7 @@ class _HomeePageState extends State<HomeePage> {
                      child: Text(
                        'Popular Deals',
                        style: TextStyle(
-                         color: Colors.black,
+                         color: isClick == false? Colors.black:Colors.white,
                          fontSize: 30,
                          fontWeight: FontWeight.w900,
                          fontFamily: 'DancingScript',
