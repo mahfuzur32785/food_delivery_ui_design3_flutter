@@ -56,10 +56,10 @@ class _HomeePageState extends State<HomeePage> {
                             height: 60,
                             width: 75,
                             decoration: BoxDecoration(
-                              color: isClick == false? Colors.transparent:Color(0xFF261051),
+                              color: isClick == false? Colors.grey.shade300:Color(0xFF261051),
                               borderRadius: BorderRadius.circular(40),
                               border: Border.all(
-                                color: isClick == false? Color(0xFFD1D4D7):Color(0xFF3D1E71),
+                                color: isClick == false? Colors.grey.shade400:Color(0xFF3D1E71),
                                 width: 8,
                               ),
                             ),

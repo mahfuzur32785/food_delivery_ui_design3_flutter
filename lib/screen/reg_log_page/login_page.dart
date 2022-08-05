@@ -43,7 +43,7 @@ class _LogInPageState extends State<LogInPage> {
               Container(
                 height: 180,
                 alignment: Alignment.center,
-                child: Text('SIGN IN',
+                child: Text('LOG IN',
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Oswald',

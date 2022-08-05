@@ -1,3 +1,4 @@
+import 'package:animated_container/screen/custom_btmNavbar/custom_btm_nav.dart';
 import 'package:animated_container/screen/home_recpe_profil/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,8 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Future.delayed(Duration(seconds: 3),(){
       isVisible = false;
-      Navigator.push(context, MaterialPageRoute(builder: (_) => HomeePage()));
+      // Navigator.push(context, MaterialPageRoute(builder: (_) => CustomButtomNavBar()));
+      Navigator.of(context).pushAndRemoveUntil(MaterialPageRoute(builder: (_) => CustomButtomNavBar()), (route) => false);
     });
   }
   @override
