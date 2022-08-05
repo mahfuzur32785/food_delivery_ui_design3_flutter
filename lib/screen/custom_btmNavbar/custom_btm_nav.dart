@@ -1,6 +1,6 @@
-import 'package:animated_container/screen/home_page.dart';
-import 'package:animated_container/screen/profile_page.dart';
-import 'package:animated_container/screen/recipe_page.dart';
+import 'package:animated_container/screen/home_recpe_profil/home_page.dart';
+import 'package:animated_container/screen/home_recpe_profil/profile_page.dart';
+import 'package:animated_container/screen/home_recpe_profil/recipe_page.dart';
 import 'package:flutter/material.dart';
 
 class CustomButtomNavBar extends StatefulWidget {
@@ -38,7 +38,7 @@ class _CustomButtomNavBarState extends State<CustomButtomNavBar> {
               child: Icon(Icons.home,size: 40,),
               backgroundColor: Color(0xFF8BC24A),
               foregroundColor: Colors.black,
-              radius: 30,
+              radius: 25,
             ):Icon(Icons.home,size: 40,),
             label: 'Home',
             backgroundColor: Colors.red,
@@ -48,7 +48,7 @@ class _CustomButtomNavBarState extends State<CustomButtomNavBar> {
               child: Icon(Icons.restaurant_menu,size: 40,),
               backgroundColor: Color(0xFF8BC24A),
               foregroundColor: Colors.black,
-              radius: 30,
+              radius: 25,
             ):Icon(Icons.restaurant_menu,size: 40,),
             label: 'Recipe',
           ),
@@ -57,7 +57,7 @@ class _CustomButtomNavBarState extends State<CustomButtomNavBar> {
               child: Icon(Icons.perm_contact_calendar_outlined,size: 40,),
               backgroundColor: Color(0xFF8BC24A),
               foregroundColor: Colors.black,
-              radius: 30,
+              radius: 25,
             ):Icon(Icons.perm_contact_calendar_outlined,size: 40,),
             label: 'Profile',
           ),

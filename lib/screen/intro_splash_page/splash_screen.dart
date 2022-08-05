@@ -1,4 +1,4 @@
-import 'package:animated_container/screen/home_page.dart';
+import 'package:animated_container/screen/home_recpe_profil/home_page.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
