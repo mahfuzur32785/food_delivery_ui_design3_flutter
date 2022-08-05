@@ -12,7 +12,7 @@ class LogInPage extends StatefulWidget {
 
 class _LogInPageState extends State<LogInPage> {
 
-  bool isObsecure = false;
+  bool isObsecure = true;
 
   @override
   Widget build(BuildContext context) {
@@ -92,17 +92,17 @@ class _LogInPageState extends State<LogInPage> {
                           children: [
                             TextField(
                               cursorColor: Colors.grey,
-                              obscureText: isObsecure,
+                              obscureText: false,
                               decoration: InputDecoration(
                                 //border: OutlineInputBorder(),
                                 enabledBorder: UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderSide: BorderSide(color: Colors.grey,width: 2),
                                 ),
                                 focusedBorder: UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderSide: BorderSide(color: Colors.grey,width: 2),
                                 ),
                                 border: UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderSide: BorderSide(color: Colors.grey,width: 2),
                                 ),
                                 labelText: 'EMAIL',
                                 labelStyle: TextStyle(
@@ -133,13 +133,13 @@ class _LogInPageState extends State<LogInPage> {
                               decoration: InputDecoration(
                                 //border: OutlineInputBorder(),
                                 enabledBorder: UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderSide: BorderSide(color: Colors.grey,width: 2),
                                 ),
                                 focusedBorder: UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderSide: BorderSide(color: Colors.grey,width: 2),
                                 ),
                                 border: UnderlineInputBorder(
-                                  borderSide: BorderSide(color: Colors.grey),
+                                  borderSide: BorderSide(color: Colors.grey,width: 2),
                                 ),
                                 labelText: 'PASSWORD',
                                 labelStyle: TextStyle(

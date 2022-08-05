@@ -61,13 +61,13 @@ class _RegistrationPageState extends State<RegistrationPage> {
                     decoration: InputDecoration(
                       //border: OutlineInputBorder(),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: Colors.grey,width: 2),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: Colors.grey,width: 2),
                       ),
                       border: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: Colors.grey,width: 2),
                       ),
                       labelText: 'EMAIL',
                       labelStyle: TextStyle(
@@ -90,7 +90,7 @@ class _RegistrationPageState extends State<RegistrationPage> {
                     ),
                   ),
                   SizedBox(
-                    height: 20,
+                    height: 10,
                   ),
                   TextField(
                     cursorColor: Colors.grey,
@@ -98,13 +98,13 @@ class _RegistrationPageState extends State<RegistrationPage> {
                     decoration: InputDecoration(
                       //border: OutlineInputBorder(),
                       enabledBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: Colors.grey,width: 2),
                       ),
                       focusedBorder: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: Colors.grey,width: 2),
                       ),
                       border: UnderlineInputBorder(
-                        borderSide: BorderSide(color: Colors.grey),
+                        borderSide: BorderSide(color: Colors.grey,width: 2),
                       ),
                       labelText: 'PASSWORD',
                       labelStyle: TextStyle(
